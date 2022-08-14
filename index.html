@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="logo">
+                <a href="/index.html">Location Tracker</a>
+            </div>
+            <div class="about">
+                <a href="/about.html">About</a>
+            </div>
+        </header>
+        <main>
+            <h2>Your location</h2>
+            <section class="address-container">
+                <div id="main-location"></div>
+                <div>City: <span id="city"></span></div>
+                <div>State: <span id="state"></span></div>
+                <div>Country: <span id="country"></span></div>
+            </section>
+        </main>
+    </div>
+    <div id="loader" class="active">
+        <h3>Loading...</h3>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

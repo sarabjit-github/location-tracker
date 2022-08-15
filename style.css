@@ -43,6 +43,17 @@ main > h2{
     margin: 1rem 0;
     opacity: .8;
 }
+button{
+    border: 1px solid white;
+    background: black;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+button:hover{
+    background: rgba(255, 255, 255, 0.15);
+}
 .address-container div{
     margin: .5rem 0;
 }

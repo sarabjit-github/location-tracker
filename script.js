@@ -17,11 +17,13 @@ function getUserLocation() {
       document.getElementById("city").innerText = `${city}`;
       document.getElementById("country").innerText = `${country}`;
       document.getElementById("state").innerText = `${state}`;
+      document.getElementById("location-container").style.display = 'block';
     });
   }else{
     document.getElementById(
       "main-location"
     ).innerHTML = `<h3>Denied</h3>`;
+    document.getElementById("location-container").style.display = 'block';
   }
 }
 // getUserLocation();

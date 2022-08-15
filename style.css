@@ -39,10 +39,6 @@ main{
     width: 100%;
     text-align: center;
 }
-main > h2{
-    margin: 1rem 0;
-    opacity: .8;
-}
 button{
     border: 1px solid white;
     background: black;
@@ -53,6 +49,13 @@ button{
 }
 button:hover{
     background: rgba(255, 255, 255, 0.15);
+}
+#location-container{
+    display: none;
+}
+#location-container > h2{
+    margin: 1rem 0;
+    opacity: .8;
 }
 .address-container div{
     margin: .5rem 0;
